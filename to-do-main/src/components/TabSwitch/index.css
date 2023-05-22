@@ -1,0 +1,29 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+.tab {
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  padding: 1rem 2.4rem;
+  background: linear-gradient(
+      0deg,
+      rgba(8, 30, 52, 0.05),
+      rgba(8, 30, 52, 0.05)
+    ),
+    #f0f0f0;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #081e34;
+}
+
+.tab--active {
+  background: rgba(8, 30, 52, 0.42);
+  font-weight: 700;
+  color: #ffffff;
+}
